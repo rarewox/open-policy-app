@@ -51,7 +51,7 @@ export default function App() {
 
     setTimeout(() => {
       check_user();
-    }, 3000);
+    }, 5000);
 
     return () => {
       Animated.timing(fadeAnim, {
@@ -85,7 +85,7 @@ export default function App() {
               We are not affiliated with or representative
             </Text>
             <Text className="text-lg text-black ">
-              of any government policy
+              of any government agency.
             </Text>
           </View>
         </Animated.View>
