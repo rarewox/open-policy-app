@@ -3,9 +3,9 @@ import {
   Text,
   Animated,
   ScrollView,
-  SafeAreaView,
   TouchableOpacity,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import React, { useEffect, useRef } from 'react';
 import terms from '../../constants/terms';
 import { Ionicons } from '@expo/vector-icons';

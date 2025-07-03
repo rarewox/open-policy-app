@@ -1,7 +1,6 @@
 import {
   View,
   Text,
-  SafeAreaView,
   TouchableOpacity,
   Image,
   TextInput,
@@ -17,6 +16,7 @@ import { router } from 'expo-router';
 import Bills from '../../components/parliament/Bills';
 import Debates from '../../components/parliament/Debates';
 import Committees from '../../components/parliament/Committees';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const screenWidth = Dimensions.get('window').width;
 const tabCount = 3;
