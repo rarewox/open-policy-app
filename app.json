@@ -29,7 +29,7 @@
           "data": [
             {
               "scheme": "https",
-              "host": "https://app.openpolicy.me",
+              "host": "app.openpolicy.me",
               "pathPrefix": "/bills"
             }
           ],
