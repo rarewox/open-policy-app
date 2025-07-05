@@ -4,9 +4,9 @@ import {
   TextInput,
   TouchableOpacity,
   Animated,
-  SafeAreaView,
   ScrollView,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import React, { useEffect, useRef, useState } from 'react';
 import { Ionicons } from '@expo/vector-icons';
 import { useRegisterContext } from '../../../context/RegisterContext';

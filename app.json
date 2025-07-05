@@ -20,6 +20,7 @@
         "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#ffffff"
       },
+      "proguardObfuscate": true,
       "edgeToEdgeEnabled": true,
       "package": "com.openpolicy.openpolicyapp",
       "intentFilters": [
@@ -29,7 +30,7 @@
           "data": [
             {
               "scheme": "https",
-              "host": "https://app.openpolicy.me",
+              "host": "app.openpolicy.me",
               "pathPrefix": "/bills"
             }
           ],

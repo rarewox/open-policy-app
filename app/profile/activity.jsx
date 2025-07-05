@@ -1,13 +1,13 @@
 import {
   View,
   Text,
-  SafeAreaView,
   TouchableOpacity,
   Animated,
   Modal,
   FlatList,
   TextInput,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import React, { useEffect, useState } from 'react';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';

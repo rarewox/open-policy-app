@@ -4,13 +4,13 @@ import {
   TouchableOpacity,
   FlatList,
   Image,
-  SafeAreaView,
   TextInput,
   Platform,
   KeyboardAvoidingView,
   ScrollView,
   ActivityIndicator,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import React, { useEffect, useRef, useState } from 'react';
 import { images } from '../../../constants';
 import { Ionicons } from '@expo/vector-icons';
