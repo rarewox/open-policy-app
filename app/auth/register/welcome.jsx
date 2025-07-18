@@ -20,66 +20,66 @@ const Welcome = () => {
           </View>
 
           {/* Onboarding Items */}
-          <View className="mb-12 space-y-6 mt-10">
-            <View className="flex-row items-center space-x-4 h-[100px]">
+          <View className="mb-12 space-y-6 mt-10 border-red-600">
+            <View className="flex-row items-center space-x-4 h-[100px] w-[350px]">
               <Image
                 source={images.calendar}
                 className="mr-4 h-[35px] w-[35px]"
                 resizeMode="contain"
               />
-              <Text className="text-[#000000] text-xl">
+              <Text className="text-[#000000] text-xl w-[90%]">
                 Be informed about plenary and committee meetings at the Canadian
                 Parliament.
               </Text>
             </View>
 
             <View className="items-center">
-              <View className="h-1 w-[100%] bg-gray-100 mt-3">
+              <View className="h-1 w-[400px] bg-gray-100 mt-3">
                 <View className="h-1 bg-gray w-4/4" />
               </View>
             </View>
 
-            <View className="flex-row items-center space-x-4 h-[100px]">
+            <View className="flex-row items-center space-x-4 h-[100px] w-[350px]">
               <Image
                 source={images.like}
                 className="mr-4 h-[35px] w-[35px]"
                 resizeMode="contain"
               />
-              <Text className="text-[#000000] text-xl">
+              <Text className="text-[#000000] text-xl w-[90%]">
                 Make your voice known by voting bills.
               </Text>
             </View>
 
             <View className="items-center">
-              <View className="h-1 w-[100%] bg-gray-100 mt-3">
+              <View className="h-1 w-[400px] bg-gray-100 mt-3">
                 <View className="h-1 bg-gray w-4/4" />
               </View>
             </View>
 
-            <View className="flex-row items-center space-x-4 h-[100px] mt-4 mb-2">
+            <View className="flex-row items-center space-x-4 h-[100px] w-[350px] mt-4 mb-2">
               <Image
                 source={images.document}
                 className="mr-4 h-[35px] w-[35px]"
                 resizeMode="contain"
               />
-              <Text className="text-[#000000] text-xl">
+              <Text className="text-[#000000] text-xl w-[90%]">
                 Access the most relevant documents recently published by the
                 Canadian Parliament.
               </Text>
             </View>
             <View className="items-center">
-              <View className="h-1 w-[100%] bg-gray-100 mt-3">
+              <View className="h-1 w-[400px] bg-gray-100 mt-3">
                 <View className="h-1 bg-gray w-4/4" />
               </View>
             </View>
 
-            <View className="flex-row items-center space-x-4 h-[100px] mt-2">
+            <View className="flex-row items-center space-x-4 h-[100px] w-[350px] mt-2">
               <Image
                 source={images.users}
                 className="mr-4 h-[35px] w-[35px]"
                 resizeMode="contain"
               />
-              <Text className="text-[#000000] text-xl">
+              <Text className="text-[#000000] text-xl w-[90%]">
                 Find specific MPs and get their contact details.
               </Text>
             </View>

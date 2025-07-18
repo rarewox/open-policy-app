@@ -6,7 +6,7 @@ import { router } from 'expo-router';
 const api = axios.create({
   baseURL:
     'https://open-policy-backend-drf8ffeeeehhhhd2.canadacentral-01.azurewebsites.net/api',
-  // 'https://ready-hopefully-martin.ngrok-free.app/api',
+  // 'http://ec2-54-144-180-21.compute-1.amazonaws.com:8000/api',
   timeout: 60000,
   headers: {
     'Content-Type': 'application/json',

@@ -20,7 +20,7 @@ const Welcome = () => {
           </View>
 
           {/* Onboarding Items */}
-          <View className="mb-12 space-y-6 mt-10">
+          <View className="mb-12 space-y-6 mt-10 border-red-600">
             <View className="flex-row items-center space-x-4 h-[100px] w-[350px]">
               <Image
                 source={images.calendar}

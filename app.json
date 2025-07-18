@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.openpolicy.openpolicyapp",
+      "bundleIdentifier": "com.wisdomtestteam.openpolicy",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -61,7 +61,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "5f2bf4c2-86aa-49a9-9292-e7366b05c1bb"
+        "projectId": "30b384e7-1896-42bc-9295-0d993e5d0e00"
       }
     }
   }
