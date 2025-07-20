@@ -83,6 +83,7 @@ const RepresentativeCardDetail = () => {
           resizeMode="cover"
         /> */}
         <FallbackImage
+          key={data.image}
           uri={data.image}
           className="w-[144px] h-[225px] rounded-3xl"
           resizeMode="cover"

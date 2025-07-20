@@ -36,6 +36,7 @@ const RepresentativeCardSummary = () => {
       <View className="flex-row">
         {/* Profile Image */}
         <FallbackImage
+          key={data.image}
           uri={data.image}
           className="w-[144px] h-[225px] rounded-3xl"
           resizeMode="cover"
