@@ -57,7 +57,7 @@ const Bills = () => {
         setData(response.data.data);
       }
     } catch (error) {
-      showError(error.response?.data.message || error.message);
+      showError('Error retrieving bills');
     }
   }, [debouncedSearch, selected]);
 

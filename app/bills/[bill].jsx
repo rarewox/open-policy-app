@@ -341,16 +341,18 @@ const BillInformation = () => {
           keyExtractor={(item, index) =>
             item?.id?.toString() || index.toString()
           }
-          renderItem={({ item }) => (
-            <View className="my-2 pr-2">
-              <Text className="font-bold text-gray-700 leading-relaxed">
-                {item.title}{' '}
-                <Text className="text-gray-500 font-normal leading-relaxed">
-                  {item.value}
+          renderItem={({ item }) =>
+            item?.value != null ? (
+              <View className="my-2 pr-2">
+                <Text className="font-bold text-gray-700 leading-relaxed">
+                  {item.title}{' '}
+                  <Text className="text-gray-500 font-normal leading-relaxed">
+                    {item.value}
+                  </Text>
                 </Text>
-              </Text>
-            </View>
-          )}
+              </View>
+            ) : null
+          }
           ListFooterComponent={() => (
             <View className="mt-2 mb-1 p-4 bg-[#F2F2F2] rounded-t-3xl">
               <Text className="text-xl font-semibold mb-8">
@@ -390,16 +392,18 @@ const BillInformation = () => {
                   />
                 </>
               )}
-              <TouchableOpacity
-                className="px-4 py-4 bg-[#FFFFFF] rounded-3xl"
-                onPress={() =>
-                  router.push(`/politicians/${data.politician_id}`)
-                }
-              >
-                <Text className="text-black font-semibold text-center">
-                  Contact Representative
-                </Text>
-              </TouchableOpacity>
+              {data?.politician_id && (
+                <TouchableOpacity
+                  className="px-4 py-4 bg-[#FFFFFF] rounded-3xl"
+                  onPress={() =>
+                    router.push(`/politicians/${data.politician_id}`)
+                  }
+                >
+                  <Text className="text-black font-semibold text-center">
+                    Contact Representative
+                  </Text>
+                </TouchableOpacity>
+              )}
             </View>
           )}
         />
